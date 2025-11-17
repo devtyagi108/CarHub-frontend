@@ -30,10 +30,7 @@ const Dashboard = () => {
           <div className="dashboard-welcome">
             <h2>Welcome to ChatApp</h2>
             <p>
-              {user?.role === 'admin' 
-                ? 'Chatting Feature will be available soon.' 
-                : 'Chatting Feature will be available soon.'
-              }
+              Chatting Feature will be available soon.
             </p>
           </div>
         </div>
